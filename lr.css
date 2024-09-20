@@ -1,0 +1,19 @@
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.3; /* Adjust the opacity */
+    background-image: url('https://cdn.discordapp.com/avatars/547562394545684480/e6ca0b93c8f92a0339f3edc40482306d.png?size=1024');
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px);
+}
+
+@media (max-width: 768px) {
+    .background-image {
+        display: none; /* Hide background image on smaller screens */
+    }
+}
